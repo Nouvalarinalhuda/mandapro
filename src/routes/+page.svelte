@@ -127,12 +127,12 @@ function animateStat(index, duration = 1200) {
     ];
   
     const facilities = [
-      { name: "Masjid Nurul Huda", img: "https://images.unsplash.com/photo-1519817650390-64a93db51149?auto=format&fit=crop&w=600&q=80" },
-      { name: "Lab. Komputer Multimedia", img: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80" },
-      { name: "Perpustakaan Digital", img: "https://images.unsplash.com/photo-1568667256549-094345857637?auto=format&fit=crop&w=400&q=80" },
-      { name: "Gelanggang Olahraga", img: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=400&q=80" },
-      { name: "Laboratorium MIPA", img: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=400&q=80" },
-      { name: "Asrama Ma'had", img: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=400&q=80" }
+      { name: "Masjid Nurul Huda", img: "/foto/1.jpg" },
+      { name: "Lab. Komputer Multimedia", img: "/foto/2.jpeg" },
+      { name: "Perpustakaan", img: "/foto/3.jpg" },
+      { name: "Gelanggang Olahraga", img: "/foto/4.jpeg" },
+      { name: "Laboratorium MIPA", img: "/foto/5.jpeg" },
+      { name: "Asrama Ma'had", img: "/foto/6.jpg" }
     ];
   
     const ekskulCategories = [
@@ -447,7 +447,7 @@ function animateStat(index, duration = 1200) {
               <div class="absolute inset-0 bg-emerald-600 rounded-3xl rotate-3 group-hover:rotate-6 transition-transform duration-500"></div>
               <img src="/foto/kepalasekolah1.jpeg" 
                    alt="Kepala Madrasah" 
-                   class="relative rounded-3xl shadow-2xl w-full object-cover h-[500px] z-10 grayscale hover:grayscale-0 transition-all duration-500">
+                   class="relative rounded-3xl shadow-2xl w-full object-cover h-[500px] z-10 ">
               
               <div class="absolute bottom-8 -right-4 z-20 bg-white p-6 rounded-2xl shadow-xl max-w-xs animate-bounce-slow">
                 <div class="flex items-center gap-2 mb-2">
