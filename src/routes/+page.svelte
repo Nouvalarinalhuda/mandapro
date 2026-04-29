@@ -444,20 +444,26 @@ function animateStat(index, duration = 1200) {
             
             <!-- Image Side -->
             <div class="lg:w-1/2 relative group">
-              <div class="absolute inset-0 bg-emerald-600 rounded-3xl rotate-3 group-hover:rotate-6 transition-transform duration-500"></div>
-              <img src="/foto/kepalasekolah1.jpeg" 
-                   alt="Kepala Madrasah" 
-                   class="relative rounded-3xl shadow-2xl w-full object-cover h-[500px] z-10 ">
-              
-              <div class="absolute bottom-8 -right-4 z-20 bg-white p-6 rounded-2xl shadow-xl max-w-xs animate-bounce-slow">
-                <div class="flex items-center gap-2 mb-2">
-                   <div class="w-3 h-3 bg-emerald-500 rounded-full"></div>
-                   <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                   <div class="w-3 h-3 bg-red-400 rounded-full"></div>
-                </div>
-                <p class="text-slate-600 italic text-sm">"Pendidikan adalah senjata paling mematikan di dunia, karena dengan pendidikan Anda dapat mengubah dunia."</p>
-              </div>
-            </div>
+  <!-- Background Layer (Kotak Hijau di Belakang) -->
+  <div class="absolute inset-0 bg-emerald-600 rounded-3xl rotate-3 group-hover:rotate-6 transition-transform duration-500"></div>
+  
+  <!-- Image Container -->
+  <div class="relative z-10 w-full h-[500px] overflow-hidden rounded-3xl shadow-2xl">
+    <img src="/foto/kepalasekolah1.jpeg" 
+         alt="Kepala Madrasah" 
+         class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+  </div>
+  
+  <!-- Floating Quote Card -->
+  <div class="absolute bottom-8 -right-4 z-20 bg-white p-6 rounded-2xl shadow-xl max-w-xs animate-bounce-slow">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="w-3 h-3 bg-emerald-500 rounded-full"></div>
+      <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
+      <div class="w-3 h-3 bg-red-400 rounded-full"></div>
+    </div>
+    <p class="text-slate-600 italic text-sm">"Pendidikan adalah senjata paling mematikan di dunia, karena dengan pendidikan Anda dapat mengubah dunia."</p>
+  </div>
+</div>
   
             <!-- Text Side -->
             <div class="lg:w-1/2">
